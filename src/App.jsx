@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import TaskList from './components/TaskList'
+import TaskForm from './components/TaskForm'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <h1>Hola mundo</h1>
-    </div>
+    <>
+      <TaskForm />
+      <TaskList />
+    </>
   )
 }
 
-export default App
+export default App;
