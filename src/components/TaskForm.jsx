@@ -32,7 +32,7 @@ function TaskForm() {
           placeholder="Write a description"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
-          className="bg-slate-200 p-2"
+          className="bg-slate-200 p-2 resize-none"
           cols="30"
           rows="6"
         />
